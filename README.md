@@ -8,9 +8,9 @@ Currently binary is only available for Linux.
 To download ScreenUpload binary file for Linux go to this [link](https://github.com/kacpersaw/ScreenUpload/releases).
 
 ### How to run?
-To run ScreeCloud you must copy executable to /usr/bin after this execute this command:
+To run ScreeUpload you must copy executable to /usr/bin after this execute this command:
 ```bash
-cat MyScreen.png | ScreenCloud --server=localhost --port=22 --username=root --password=secretpassword --upload_path=/root/screens --upload_url=http://localhost/screens
+cat MyScreen.png | ScreenUpload --server=localhost --port=22 --username=root --password=secretpassword --upload_path=/root/screens --upload_url=http://localhost/screens
 ```
 Be sure to not add a trailing slash in ``upload_path`` and ``upload_url``
 
@@ -22,7 +22,7 @@ To use ScreenUpload with ScreenCloud you must create bash script.
 Example bash script:
 ```bash
  #!/bin/bash
- cat $1 | ScreenCloud --server=localhost --port=22 --username=root --password=secretpassword --upload_path=/root/screens --upload_url=http://localhost/screens
+ cat $1 | ScreenUpload --server=localhost --port=22 --username=root --password=secretpassword --upload_path=/root/screens --upload_url=http://localhost/screens
  exit 0
 ```
 
