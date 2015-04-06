@@ -1,6 +1,6 @@
 # ScreenUpload
 
-ScreenUpload app is used as shell script in ScreenCloud. This app allows you to upload your screens to own server by sftp. ScreenUpload creates dirs (year/month/day) and then upload your image to it. ScreenCloud generates unique screen name.
+ScreenUpload app is used as shell script in ScreenCloud. This app allows you to upload your screens to own server by sftp. ScreenUpload creates dirs (year/month/day) and then upload your image to it. ScreenUpload generates unique screen name.
 
 Currently binary is only available for Linux.
 
